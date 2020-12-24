@@ -30,4 +30,10 @@ retrieveAllTodos(username: any) {
 
    }
 
+   updateTodo(username: any, id: any, todo: any){
+
+    return this.http.put(`http://localhost:8080/users/${username}/todos/${id}`, todo);
+
+   }
+
 }

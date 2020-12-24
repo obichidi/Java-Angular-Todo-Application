@@ -22,7 +22,7 @@ name = '';
 
   ngOnInit(){
     console.log(this.message);
-    this.name =this.route.snapshot.params['name']
+    this.name = this.route.snapshot.params['name'];
   }
 
 
